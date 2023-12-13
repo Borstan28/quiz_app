@@ -1,0 +1,19 @@
+doctype html 
+html
+    head 
+        title Quiz
+        link(rel='stylesheet', href='../stylesheets/login.css')
+    body
+        div.container
+            h1 Quiz App
+            div.loginContainer
+                h2 Login
+                form(id="loginForm", action="/login", method="post")
+                    input(type="text", id="username", name="username", class="formField", placeholder="Login", required)
+                    br
+                    input(type="password", id="password", name="password", class="formField", placeholder="Password", required)
+                    br
+                    button(type="button", onclick="loginHandler()" class="loginButton") Login
+                div#alertMessage
+            p git: Borstan28☺️
+    script(src="../js/login.js")
