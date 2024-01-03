@@ -13,4 +13,15 @@ function loginUser(req, res) {
   res.redirect('/');
 }
 
-module.exports = loginUser;
+function renderLoginPage(req, res) {
+  if (req.user) {
+    res.redirect('/');
+  } else {
+    res.render('loginPage');
+  }
+}
+
+module.exports = {
+  loginUser: loginUser,
+  renderLoginPage: renderLoginPage
+};
