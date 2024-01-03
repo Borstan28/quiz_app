@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 800px;
+    background: linear-gradient(24deg, rgba(176,224,230,1) 35%, rgba(255,182,193,1) 100%);
+    margin-top: 0px;
+}

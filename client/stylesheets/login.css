@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    background: #ffff99;
+    background: linear-gradient(24deg, rgba(176,224,230,1) 35%, rgba(255,182,193,1) 100%);
     width: 100%;
     min-height: 800px;
     display: flex;
@@ -17,11 +17,15 @@ body {
 }
 
 .container .loginContainer {
-    background: #b3a46b;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     width: 30%;
-    height: 300px;
+    height: 230px;
     border-radius: 30px;
-    color: #ffff99;
 }
 
 .container .loginContainer .formField {
@@ -32,7 +36,6 @@ body {
     margin-top: 10px;
     font-size: 25px;
     text-align: center;
-    color: #b3a46b;
 }
 
 .loginButton {
@@ -41,10 +44,19 @@ body {
     border-radius: 15px;
     border: 0;
     transition: 0.3s;
-    background: #ffff99;
     margin-top: 10px;
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .loginButton:hover {
-    background: #e2e286;
+    background: powderblue;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.1px);
+    -webkit-backdrop-filter: blur(11.1px);
 }
